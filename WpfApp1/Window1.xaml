@@ -7,7 +7,21 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="800">
     <Grid>
+        <Menu Height="25" VerticalAlignment="Bottom">
+            <MenuItem Header="Файл">
+                <MenuItem.Icon>
+                    <Image Source="C:\Users\andre\Downloads\icon.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Header="Создать"></MenuItem>
+                <MenuItem Header="Открыть">
+                    <MenuItem Header="WPF_LESSON.sln"></MenuItem>
+                </MenuItem>
+                <MenuItem Header="Сохранить"></MenuItem>
+                <Button Content="Кнопка в меню"></Button>
+                <Separator></Separator>
+                <MenuItem Header="Выйти" Click="MenuItem_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
         <Button Content="Button" HorizontalAlignment="Left" Margin="400,217,0,0" VerticalAlignment="Top" Height="76" Width="148" Click="Button_Click"/>
-
     </Grid>
 </Window>

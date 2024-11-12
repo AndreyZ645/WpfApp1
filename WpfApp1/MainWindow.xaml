@@ -7,7 +7,21 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Height="37" Width="104" Margin="663,291,0,0"/>
-        <Image Source ="C:\Users\andre\Downloads\cat.jpg" HorizontalAlignment="Left" Height="136" Margin="263,133,0,0" VerticalAlignment="Top" Width="282"/>
+        <Menu Height="25" VerticalAlignment="Top">
+            <MenuItem Header="Файл">
+                <MenuItem.Icon>
+                    <Image Source="C:\Users\andre\Downloads\icon.png"></Image>
+                </MenuItem.Icon>
+                <MenuItem Header="Следующее" Click="MenuItem_Click_1"></MenuItem>
+                <MenuItem Header="Предыдущее" Click="MenuItem_Click_2"></MenuItem>
+                <MenuItem Header="Сохранить"></MenuItem>
+                <Button Content="Кнопка в меню"></Button>
+                <Separator></Separator>
+                <MenuItem Header="Окно с TextBox" Click="MenuItem_Click_3"></MenuItem>
+                <MenuItem Header="Выйти" Click="MenuItem_Click"></MenuItem>
+            </MenuItem>
+        </Menu>
+        <Button Content="Далее" HorizontalAlignment="Left" VerticalAlignment="Top" Click="Button_Click" Height="37" Width="104" Margin="663,360,0,0"/>
+        <Image Name="DisplayImageForm" HorizontalAlignment="Left" VerticalAlignment="Top" Stretch="Uniform" Height="150" Width="200" Margin="70,132,0,0"/>
     </Grid>
 </Window>
