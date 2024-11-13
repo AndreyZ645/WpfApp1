@@ -26,23 +26,23 @@
         <ColumnDefinition Width="*"></ColumnDefinition>
         <ColumnDefinition Width="*"></ColumnDefinition>
       </Grid.ColumnDefinitions>
-      <Button Name="btn7" Content="7" Grid.Row="1" Grid.Column="0" Click="btn7_Click"></Button>
-      <Button Name="btn8" Content="8" Grid.Row="1" Grid.Column="1" Click="btn8_Click"></Button>
-      <Button Name="btn9" Content="9" Grid.Row="1" Grid.Column="2" Click="btn9_Click"></Button>
-      <Button Name="btn4" Content="4" Grid.Row="2" Grid.Column="0" Click="btn4_Click"></Button>
-      <Button Name="btn5" Content="5" Grid.Row="2" Grid.Column="1" Click="btn5_Click"></Button>
-      <Button Name="btn6" Content="6" Grid.Row="2" Grid.Column="2" Click="btn6_Click"></Button>
-      <Button Name="btn1" Content="1" Grid.Row="3" Grid.Column="0" Click="btn1_Click"></Button>
-      <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1" Click="btn2_Click"></Button>
-      <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2" Click="btn3_Click"></Button>
-      <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="1" Click="btn0_Click"></Button>
-      <Button Name="btnDecemal" Content="." Grid.Row="4" Grid.Column="2" Click="btnDecemal_Click"></Button>
-      <Button Name="btnEquals" Content="=" Grid.Row="0" Grid.Column="3" Click="btnEquals_Click"></Button>
-      <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Click="btnPlus_Click"></Button>
-      <Button Name="btnMinus" Content="-" Grid.Row="2" Grid.Column="3" Click="btnMinus_Click"></Button>
-      <Button Name="btnClear" Content="C" Grid.Row="4" Grid.Column="0" Click="btnClear_Click"></Button>
-      <Button Name="btnMultiply" Content="x" Grid.Row="3" Grid.Column="3" Click="btnMultiply_Click"></Button>
-      <Button Name="btnDivide" Content="/" Grid.Row="4" Grid.Column="3" Click="btnDivide_Click"></Button>
+      <Button Name="btn7" Content="7" Grid.Row="1" Grid.Column="0" Click="NumberButton_Click"></Button>
+      <Button Name="btn8" Content="8" Grid.Row="1" Grid.Column="1" Click="NumberButton_Click"></Button>
+      <Button Name="btn9" Content="9" Grid.Row="1" Grid.Column="2" Click="NumberButton_Click"></Button>
+      <Button Name="btn4" Content="4" Grid.Row="2" Grid.Column="0" Click="NumberButton_Click"></Button>
+      <Button Name="btn5" Content="5" Grid.Row="2" Grid.Column="1" Click="NumberButton_Click"></Button>
+      <Button Name="btn6" Content="6" Grid.Row="2" Grid.Column="2" Click="NumberButton_Click"></Button>
+      <Button Name="btn1" Content="1" Grid.Row="3" Grid.Column="0" Click="NumberButton_Click"></Button>
+      <Button Name="btn2" Content="2" Grid.Row="3" Grid.Column="1" Click="NumberButton_Click"></Button>
+      <Button Name="btn3" Content="3" Grid.Row="3" Grid.Column="2" Click="NumberButton_Click"></Button>
+      <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="1" Click="NumberButton_Click"></Button>
+      <Button Name="btnDecemal" Content="." Grid.Row="4" Grid.Column="2" Click="OperationButton_Click"></Button>
+      <Button Name="btnEquals" Content="=" Grid.Row="0" Grid.Column="3" Click="EqualsButton_Click"></Button>
+      <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Click="OperationButton_Click"></Button>
+      <Button Name="btnMinus" Content="-" Grid.Row="2" Grid.Column="3" Click="OperationButton_Click"></Button>
+      <Button Name="btnClear" Content="C" Grid.Row="4" Grid.Column="0" Click="ClearButton_Click"></Button>
+      <Button Name="btnMultiply" Content="x" Grid.Row="3" Grid.Column="3" Click="OperationButton_Click"></Button>
+      <Button Name="btnDivide" Content="/" Grid.Row="4" Grid.Column="3" Click="OperationButton_Click"></Button>
     </Grid>
   </Grid>
 </Window>
