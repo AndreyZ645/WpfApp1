@@ -38,11 +38,43 @@
       <Button Name="btn0" Content="0" Grid.Row="4" Grid.Column="1" Click="NumberButton_Click"></Button>
       <Button Name="btnDecemal" Content="." Grid.Row="4" Grid.Column="2" Click="OperationButton_Click"></Button>
       <Button Name="btnEquals" Content="=" Grid.Row="0" Grid.Column="3" Click="EqualsButton_Click"></Button>
-      <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Click="OperationButton_Click"></Button>
-      <Button Name="btnMinus" Content="-" Grid.Row="2" Grid.Column="3" Click="OperationButton_Click"></Button>
+      <Button Name="btnPlus" Content="+" Grid.Row="1" Grid.Column="3" Click="OperationButton_Click">
+        <Button.ToolTip>
+          <ToolTip Background="#90004455">
+            <StackPanel>
+              <TextBlock Margin="3" Foreground="White">Сумма</TextBlock>
+            </StackPanel>
+          </ToolTip>
+        </Button.ToolTip>
+      </Button>
+      <Button Name="btnMinus" Content="-" Grid.Row="2" Grid.Column="3" Click="OperationButton_Click">
+        <Button.ToolTip>
+          <ToolTip Background="#90004455">
+            <StackPanel>
+              <TextBlock Margin="3" Foreground="White">Разность</TextBlock>
+            </StackPanel>
+          </ToolTip>
+        </Button.ToolTip>
+      </Button>
       <Button Name="btnClear" Content="C" Grid.Row="4" Grid.Column="0" Click="ClearButton_Click"></Button>
-      <Button Name="btnMultiply" Content="x" Grid.Row="3" Grid.Column="3" Click="OperationButton_Click"></Button>
-      <Button Name="btnDivide" Content="/" Grid.Row="4" Grid.Column="3" Click="OperationButton_Click"></Button>
+      <Button Name="btnMultiply" Content="x" Grid.Row="3" Grid.Column="3" Click="OperationButton_Click">
+        <Button.ToolTip>
+          <ToolTip Background="#90004455">
+            <StackPanel>
+              <TextBlock Margin="3" Foreground="White">Произведение</TextBlock>
+            </StackPanel>
+          </ToolTip>
+        </Button.ToolTip>
+      </Button>
+      <Button Name="btnDivide" Content="/" Grid.Row="4" Grid.Column="3" Click="OperationButton_Click">
+        <Button.ToolTip>
+          <ToolTip Background="#90004455">
+            <StackPanel>
+              <TextBlock Margin="3" Foreground="White">Частное</TextBlock>
+            </StackPanel>
+          </ToolTip>
+        </Button.ToolTip>
+      </Button>
     </Grid>
   </Grid>
 </Window>
